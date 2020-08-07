@@ -1,0 +1,9 @@
+POST http://localhost:5000/api/routes/register http/1.1
+Content-Type: application/json
+
+{
+    "school" : "Noun",
+    "location": "Abuja",
+    "age" : "30",
+    "password": "thisisus"
+}
